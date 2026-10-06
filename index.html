@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Kimberly ♡</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Georgia, serif;
+    background: linear-gradient(135deg, #fff0f5, #ffe1eb, #fff8f2);
+    color: #4b3540;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.card {
+    width: 100%;
+    max-width: 520px;
+    background: rgba(255,255,255,0.94);
+    border-radius: 28px;
+    padding: 35px 25px;
+    text-align: center;
+    box-shadow: 0 15px 45px rgba(80,40,60,0.15);
+}
+
+.heart {
+    font-size: 55px;
+    animation: float 2.5s ease-in-out infinite;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 15px 0 8px;
+}
+
+.subtitle {
+    color: #92717f;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+button {
+    border: none;
+    background: #70485a;
+    color: white;
+    padding: 14px 27px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+.letter {
+    display: none;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 16px;
+    margin-top: 25px;
+    animation: appear 0.8s ease;
+}
+
+.letter h2 {
+    text-align: center;
+    color: #70485a;
+}
+
+.highlight {
+    text-align: center;
+    font-size: 19px;
+    color: #70485a;
+    margin: 25px 0;
+}
+
+.signature {
+    text-align: center;
+    font-size: 18px;
+    color: #70485a;
+    margin-top: 25px;
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #a58995;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="heart">♡</div>
+
+    <h1>Happy Birthday, Kimberly! ♡</h1>
+
+    <div class="subtitle">
+        I made something special for you.
+    </div>
+
+    <button onclick="openLetter()">
+        Open your birthday letter
+    </button>
+
+    <div class="letter" id="letter">
+
+        <h2>Happy Birthday, Love! ❤️</h2>
+
+        <p>
+            I made this little surprise for you because I wanted to give
+            you something a little different this year. I hope this makes
+            you smile, even just a little.
+        </p>
+
+        <p>
+            I just want you to know how much I love you and how happy I am
+            that I get to have you in my life. Thank you for all the moments
+            we've shared, for making me happy, and for simply being you.
+        </p>
+
+        <p>
+            I promise to keep loving you, taking care of you, supporting you,
+            and choosing you every day.
+        </p>
+
+        <div class="highlight">
+            Sa’yo na ako. Ikaw na. ❤️
+        </div>
+
+        <p>
+            And yes, I mean it when I say that I want to marry you someday.
+            I want you to be the person I get to come home to, make memories
+            with, laugh with, and grow old with.
+        </p>
+
+        <p>
+            I know we still have so many things ahead of us, but I'm excited
+            to experience them with you. I want to be there for your birthdays,
+            your achievements, your dreams, and all the little moments in between.
+        </p>
+
+        <p>
+            So on your special day, I just want to remind you:
+        </p>
+
+        <div class="highlight">
+            I love you so much, Kimberly. ❤️
+            <br>
+            And I hope you never forget that.
+        </div>
+
+        <p>
+            Happy birthday, love. ❤️
+        </p>
+
+        <div class="signature">
+            Sa’yo na ako. Ikaw na. ❤️
+            <br><br>
+            Here's to many more birthdays together. 🥂❤️
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Made especially for Kimberly ♡
+    </div>
+
+</div>
+
+<script>
+function openLetter() {
+    document.getElementById("letter").style.display = "block";
+}
+</script>
+
+</body>
+</html>
